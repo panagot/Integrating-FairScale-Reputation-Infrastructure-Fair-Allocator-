@@ -194,10 +194,13 @@ const FAIRSCALE_LINKS = {
   support: "https://t.me/+XF23ay9aY1AzYzlk",
 };
 
-/** Legends.fun product page (invite code FAIRAT) */
+/** Legends.fun product page */
 const LEGENDS_FUN_URL = "https://www.legends.fun/products/70926e32-f6b4-41c5-b03a-188e48b6140b";
 /** Fair Allocator / team X (Twitter) */
 const PROJECT_TWITTER_URL = "https://x.com/PANAGOT";
+const LIVE_APP_URL = "https://integrating-fair-scale-reputation-i.vercel.app";
+const GITHUB_REPO_URL = "https://github.com/panagot/Integrating-FairScale-Reputation-Infrastructure-Fair-Allocator-";
+const PITCH_DECK_URL = "https://github.com/panagot/Integrating-FairScale-Reputation-Infrastructure-Fair-Allocator-/blob/main/docs/BUSINESS.md";
 
 function App() {
   const [rounds, setRounds] = useState<GrantRound[]>(loadRounds);
@@ -602,17 +605,17 @@ function App() {
               </div>
               <p className="traction-cta">
                 <a href={LEGENDS_FUN_URL} target="_blank" rel="noopener noreferrer">
-                  List us on Legends.fun (code FAIRAT)
+                  Fair Allocator on Legends.fun
                 </a>
-                {" · "}
-                <span className="traction-tagline">Build in public · Prove traction</span>
               </p>
               <p className="traction-links">
-                <a href={PROJECT_TWITTER_URL} target="_blank" rel="noopener noreferrer">
-                  Project X / Twitter
-                </a>
+                <a href={LIVE_APP_URL} target="_blank" rel="noopener noreferrer">Live app</a>
                 {" · "}
-                <span className="text-muted">Demo video &amp; slides in submission.</span>
+                <a href={GITHUB_REPO_URL} target="_blank" rel="noopener noreferrer">GitHub repo</a>
+                {" · "}
+                <a href={PITCH_DECK_URL} target="_blank" rel="noopener noreferrer">Pitch deck</a>
+                {" · "}
+                <a href={PROJECT_TWITTER_URL} target="_blank" rel="noopener noreferrer">X / Twitter</a>
               </p>
             </div>
             <div className="use-cases-block">
@@ -1318,7 +1321,7 @@ function App() {
           </p>
           <nav className="footer-links">
             <a href={LEGENDS_FUN_URL} target="_blank" rel="noopener noreferrer" className="footer-fairathon">
-              Fairathon · Legends.fun (FAIRAT)
+              Fairathon · Legends.fun
             </a>
             <a href={FAIRSCALE_LINKS.website} target="_blank" rel="noopener noreferrer">
               Website
