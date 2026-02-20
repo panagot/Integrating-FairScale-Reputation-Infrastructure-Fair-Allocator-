@@ -49,7 +49,7 @@ See **[Integration & API docs](./docs/integration.md)** for request/response sha
 
 ## Live demo
 
-**Live app:** [https://fair-allocator.vercel.app](https://fair-allocator.vercel.app) *(or TBD — update with your deployed URL)*
+**Live app:** [https://integrating-fair-scale-reputation-i.vercel.app](https://integrating-fair-scale-reputation-i.vercel.app)
 
 ---
 
@@ -64,8 +64,8 @@ See **[Integration & API docs](./docs/integration.md)** for request/response sha
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/FairScale/fair-allocator.git
-   cd fair-allocator
+   git clone https://github.com/panagot/Integrating-FairScale-Reputation-Infrastructure-Fair-Allocator-.git
+   cd Integrating-FairScale-Reputation-Infrastructure-Fair-Allocator-
    ```
 
 2. **Install dependencies**

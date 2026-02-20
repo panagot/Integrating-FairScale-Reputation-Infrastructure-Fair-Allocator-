@@ -10,7 +10,7 @@ Use this when filling out the **Bounty Submission** form. Replace every `[YOUR_.
 
 | You provide |
 |-------------|
-| Your **live app URL** (e.g. `https://fair-allocator.vercel.app` or wherever you deploy). |
+| Your **live app URL** (e.g. `https://integrating-fair-scale-reputation-i.vercel.app` or wherever you deploy). |
 
 **Note:** Make sure the link is public and works for everyone.
 
@@ -34,7 +34,7 @@ Use this when filling out the **Bounty Submission** form. Replace every `[YOUR_.
 
 | You provide |
 |-------------|
-| Same as (1) if that’s your app, e.g. `https://fair-allocator.vercel.app` (or your real deploy URL). |
+| Same as (1) if that’s your app, e.g. `https://integrating-fair-scale-reputation-i.vercel.app` (or your real deploy URL). |
 
 ---
 
@@ -44,7 +44,7 @@ Use this when filling out the **Bounty Submission** form. Replace every `[YOUR_.
 
 | You provide |
 |-------------|
-| `https://github.com/[FairScale-or-your-org]/fair-allocator` (or your actual repo URL). |
+| `https://github.com/panagot/Integrating-FairScale-Reputation-Infrastructure-Fair-Allocator-` |
 
 **Check:** README, setup instructions, and integration docs are in the repo.
 

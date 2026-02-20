@@ -194,9 +194,10 @@ const FAIRSCALE_LINKS = {
   support: "https://t.me/+XF23ay9aY1AzYzlk",
 };
 
-/** Replace with your Legends.fun product page URL (use code FAIRAT) */
-const LEGENDS_FUN_URL = "https://legends.fun";
-const PROJECT_TWITTER_URL = "https://x.com/[YOUR_TWITTER]";
+/** Legends.fun product page (invite code FAIRAT) */
+const LEGENDS_FUN_URL = "https://www.legends.fun/products/70926e32-f6b4-41c5-b03a-188e48b6140b";
+/** Fair Allocator / team X (Twitter) */
+const PROJECT_TWITTER_URL = "https://x.com/PANAGOT";
 
 function App() {
   const [rounds, setRounds] = useState<GrantRound[]>(loadRounds);
